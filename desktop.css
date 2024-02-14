@@ -1,0 +1,7 @@
+.container {
+    max-width: 22%;
+}
+
+.blog-preview h1:hover {
+    color: hsl(47, 88%, 63%);
+}
