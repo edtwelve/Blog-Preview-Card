@@ -8,13 +8,23 @@
 
 body {
     background-color: hsl(47, 88%, 63%);
-    font-family: "Figtree", sans-serif;;
+    font-family: "Figtree", sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
 }
 
 .container {
     background-color: white;
-    border: 1px solid black;
+    border: 1.5px solid black;
     border-radius: 10px;
+    padding: 1.5em;
+    margin: 0 1.5em;
+    box-shadow: 8px 9px 0px 0px black;
+}
+
+.bottomspace {
+    margin-bottom: 1.25em;
 }
 
 .blog-illustration {
@@ -32,6 +42,16 @@ body {
 
 .date {
     font-weight: 600;
+    font-size: smaller;
+}
+
+.blog-preview {
+    margin: 1.25em 0;
+}
+
+.blog-preview h1 {
+        font-weight: 800;
+        margin-bottom: 1em;
 }
 
 .blog-preview p {
@@ -40,6 +60,7 @@ body {
 
 .author {
     display: flex;
+    gap: 0.8em;
 }
 .author img {
     border-radius: 50%;
